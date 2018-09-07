@@ -1,0 +1,78 @@
+body{
+	background-size: cover;
+	background-position: center;
+}
+/*navigation*/
+.navi{
+	font:1em Georgia;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	background-color:gray;
+	text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+    border-
+}
+.navi li{
+	display:inline-block;
+	padding: 5px 15px 4px 15px;
+}
+.navi li a{
+	color: #333333;
+	text-decoration: none;
+	line-height: 3em;
+}
+.navi li a:hover {
+	color: blue;
+}
+.navi li.selected{
+	background:black;
+}
+.navi li.selected a{
+	color:#fff;
+}
+.login-form{
+	border: #333333;
+
+}
+input{
+    height: 30px;
+	width: 50%;
+	text-align: center;
+}
+button{
+    height: 30px;
+    width: 30%;
+    background-color: forestgreen;
+	border-radius: 50px;
+}
+img{
+	width: 50%;
+	height: 60%;
+	float: left;
+}
+.login-form{
+	height: 60%;
+	margin: auto;
+	width: 45%;
+	float: right;
+	background-color: #333333;
+	padding: 10px;
+}
+h2, h1, h3{
+	text-align: center;
+}
+@media only screen and (min-width:600px){
+	body{
+		background-color: lightcoral;
+	}
+	navi li a{
+		float:none;
+		display: block;
+	}
+}
+@media only screen and (max-width:768px){
+	[class*="col-"]{
+		width: 100%;
+	}
+}
